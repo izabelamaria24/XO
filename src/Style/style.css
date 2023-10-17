@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+h1 {
+  font-size: 3rem;
+}
+
+.table-section {
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.table-section .table {
+  display: grid;
+  grid-template-rows: repeat(3, 150px);
+  grid-template-columns: repeat(3, 150px);
+}
+
+.table-section .table .table-square {
+  background-color: rgb(229, 221, 240);
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 3rem;
+}
+
+.table-section .table .table-square:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.replay {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(165, 124, 223);
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  color: white;
+  border: none;
+  margin-top: 1rem;
+}
+
+.replay:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
